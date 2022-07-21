@@ -9,3 +9,9 @@
 [DBservers]
 172.31.18.82
 172.31.24.211
+
+
+
+[mywebservers:vars]
+mywebserverpackonubuntu= apache2222222222
+mywebserverpackonredhat= httpd
