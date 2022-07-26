@@ -18,4 +18,11 @@
          dest: /var/www/html/index.html
         
 
+  - name: download internet files into nodes 
+    get_url:
+      url: https://get.jenkins.io/war-stable/2.346.2/jenkins.war
+      dest: /home/ubuntu/jenkins.war
+      force_basic_auth: yes
+    
+
   
