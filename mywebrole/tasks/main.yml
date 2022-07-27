@@ -1,2 +1,7 @@
 ---
 # tasks file for mywebrole
+
+- name: instal web server 
+  apt:
+    name: apache2
+    state: present
