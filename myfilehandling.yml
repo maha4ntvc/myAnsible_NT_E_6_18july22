@@ -16,7 +16,8 @@
     template:
          src: myindex.j2
          dest: /var/www/html/index.html
-    notify: startwebserver
+    notify: 
+     - startwebserver
         
 
   - name: download internet files into nodes 
