@@ -5,3 +5,6 @@
 - include_tasks: insalljava.yml
 - include_tasks: donload.yml
 - include_tasks: permission.yml
+- include_tasks: tomadminusers.yml
+- include_tasks: tomservice.yml
+- include_tasks: tomstart.yml
